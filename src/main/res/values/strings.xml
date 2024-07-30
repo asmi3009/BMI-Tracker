@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI Tracker</string>
+    <string name="welcome"><u>Welcome</u></string>
+    <string name="enter_your_height_in_meter">Enter your height in meter :</string>
+    <string name="height_in_meter">Height in meter</string>
+    <string name="enter_your_weight_in_kg">Enter your weight in kg :</string>
+    <string name="weight_in_kg">Weight in Kg</string>
+    <string name="calculate">Calculate</string>
+</resources>

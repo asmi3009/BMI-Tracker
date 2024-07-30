@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bgbmi"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:padding="10sp"
+        android:layout_margin="20sp"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_height_in_meter"
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:fontFamily="@font/abhaya_libre_semibold"/>
+
+    <EditText
+        android:id="@+id/editTextheight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:ems="10"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:hint="@string/height_in_meter"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_weight_in_kg"
+        android:layout_margin="25sp"
+        android:textSize="30sp"
+        android:fontFamily="@font/abhaya_libre_semibold"/>
+
+    <EditText
+        android:id="@+id/editTextweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:ems="10"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:hint="@string/weight_in_kg"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="220sp"
+        android:id="@+id/cal"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:padding="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvbmi"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_margin="25sp"
+        android:textSize="30sp"
+        android:fontFamily="@font/abhaya_libre_semibold"/>
+
+
+
+</LinearLayout>
